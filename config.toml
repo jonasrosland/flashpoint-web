@@ -1,0 +1,91 @@
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+title = "Infinity Comming Soon Template By Themefisher"
+theme = "infinity-hugo"
+
+[params]
+
+    # Navigation
+    [params.navigation]
+        logo = "images/flashpoint-small.png"
+        home = "Home"
+        about = "About"
+        service = "Download"
+        contact = "Communitu"
+
+    # Hero Area
+    [params.hero]
+        enable      = true
+        bg          = "images/flash-ded-small.png"
+        title       = "FLASH IS DYING"
+        subtitle    = "Preserving the history of the Internet is important. Content made on plugins and platforms such as Adobe Flash and HTML5 have been vital to both internet culture and games history as well. This project is dedicated to preserving as many web-based games & animations as possible, so that they aren't lost to time."
+        btnText     = "Get Started"
+        countdownYear = "2020"
+        countdownMonth = "12"
+        countdownDay  = "31"
+
+    # About Section
+    [params.about]
+        enable      = true
+        heading     = "Does it run in a web browser? Then we support it."
+        description = "We support games and animations using Adobe Flash, Adobe Shockwave, HTML5, Java Applets, Unity Web Player, Microsoft's Silverlight, 3DVIA Player, 3D Groove GX, PopCap Plugin, ActiveX, Authorware Web Player and GoBit Games Plugin."
+
+        [[params.about.sliderItem]]
+            image   = "images/slider-1.png"
+        [[params.about.sliderItem]]
+            image   = "images/slider-2.png"
+        [[params.about.sliderItem]]
+            image   = "images/slider-3.png"
+    
+    # Service Section
+    [params.service]
+        enable      = true
+        title       = "Downloads"
+        subtitle    = "Flashpoint 6.3 Ultimate"
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-strategy"
+            title   = "The full package, ready for use offline."
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-circle-compass"
+            title   = "178GB download, 202GB extracted"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-anchor2"
+            title   = "Tons of Features"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.4s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-globe"
+            title   = "Fully Optimized"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.6s"
+    
+    # Call to Action Section
+    [params.cta]
+        enable      = true
+        bg          = "images/call-to-action.jpg"
+        title       = "Join our Discord"
+        subtitle    = "Meet with likeminded web-based game and animation aficionados!"
+
+    [params.contact]
+        enable      = true
+        title       = "Get In Touch"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
